@@ -1,1 +1,120 @@
-My links in bio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    body{
+      padding: 0 40px;
+      background-color: #004643;
+      display: flex;
+      justify-content: center;
+    }
+
+    .items{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+  }
+
+  .thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.name {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #f9bc60;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.link a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+  </style>
+</head>
+<body>
+
+  <div class="items">
+    <div class="banner">
+      <img src="/thumbnails/AzimM.JPG" alt="Azim Moldaliev headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Azim Moldaliev
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/moldalievazim" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.instagram.com/azimrunner" target="_blank">
+        Instagram
+      </a>
+    </div>
+
+    <div class="link">
+      <img
+        src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" class="thumbnail">
+
+      <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
+        — Paul Graham</a>
+    </div>
+
+    <div class="link">
+      <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png" class="thumbnail">
+
+      <a target="_blank"
+        href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
+        Butterick</a>
+    </div>
+
+    <div class="link">
+      <img
+        src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
+        Life-Saving Checklist — The New Yorker</a>
+    </div>
+  </div>
+</body>
+</html>
